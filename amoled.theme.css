@@ -224,3 +224,7 @@ input[type=checkbox]:focus {
     box-shadow: none;
     background-color: transparent;
 }
+
+#addonPromptModal .modal {
+    background-color: black;
+}
