@@ -2,9 +2,18 @@
  * @name Amoled Theme
  * @description A theme that uses amoled pitch black color.
  * @updateUrl https://raw.githubusercontent.com/REVENGE977/StremioAmoledTheme/main/amoled.theme.css
- * @version 1.0.3
+ * @version 1.0.4
  * @author REVENGE977
  */
+
+@font-face {
+    font-family: 'NotoColorEmoji';
+    src: url('https://cdn.jsdelivr.net/gh/googlefonts/noto-emoji@main/fonts/NotoColorEmoji.ttf') format('truetype');
+}
+
+body {
+    font-family: PlusJakartaSans, Arial, Helvetica, "NotoColorEmoji", "sans-serif" !important;
+}
 
 :root {
     --primary-background-color: black;
